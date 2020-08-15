@@ -22,8 +22,8 @@
 <div id="picture-frame">
 			<img src="{{asset('/')}}front/images/si.jpg" data-src="{{asset('/')}}front/images/si-1.jpg" alt="" class="img-responsive"/>
 		</div>
-										<script src="{{asset('/')}}front/js/jquery.zoomtoo.js"></script>
-								<script>
+		<script src="{{asset('/')}}front/js/jquery.zoomtoo.js"></script>
+		<script>
 			$(function() {
 				$("#picture-frame").zoomToo({
 					magnify: 1
